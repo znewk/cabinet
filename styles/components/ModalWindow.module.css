@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "NeoSansPro Bold";
+    src: url("../../public/fonts/NeoSansPro/NeoSansPro-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "NeoSansPro Medium";
+    src: url("../../public/fonts/NeoSansPro/NeoSansPro-Medium.ttf") format("truetype");
+}
+@font-face {
+    font-family: "NeoSansPro Regular";
+    src: url("../../public/fonts/NeoSansPro/NeoSansPro-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Gilroy Bold";
+    src: url("../../public/fonts/Gilroy/Gilroy-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Gilroy Medium";
+    src: url("../../public/fonts/Gilroy/Gilroy-Medium.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Gilroy Regular";
+    src: url("../../public/fonts/Gilroy/Gilroy-Regular.ttf") format("truetype");
+}
+.modalBody{
+    padding-top: 0;
+    background-color: #BECCFF;
+}
+.modal-content{
+    border: none;
+    /*border-radius:20px;*/
+}

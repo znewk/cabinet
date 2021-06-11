@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "NeoSansPro Bold";
+    src: url("../../public/fonts/NeoSansPro/NeoSansPro-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "NeoSansPro Medium";
+    src: url("../../public/fonts/NeoSansPro/NeoSansPro-Medium.ttf") format("truetype");
+}
+@font-face {
+    font-family: "NeoSansPro Regular";
+    src: url("../../public/fonts/NeoSansPro/NeoSansPro-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Gilroy Bold";
+    src: url("../../public/fonts/Gilroy/Gilroy-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Gilroy Medium";
+    src: url("../../public/fonts/Gilroy/Gilroy-Medium.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Gilroy Regular";
+    src: url("../../public/fonts/Gilroy/Gilroy-Regular.ttf") format("truetype");
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: rgb(60,88,185);
+    background: linear-gradient(90deg, rgba(60,88,185,1) 0%, rgba(119,148,248,1) 100%);
+}
+
+.title{
+    font-size: 22px;
+    font-family: "Gilroy Bold";
+    margin-left: 10px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.link{
+    color: white;
+
+}
+.footerLink{
+    color: white;
+    padding-left: 10px;
+    font-family: "Gilroy Bold";
+    transition: 0.3s;
+}
+.footerLink:hover{
+    text-shadow: 0 0 2px #000;
+    color: #95bddc;
+    text-decoration: none;
+}
+.logoImage{
+    width: 220px;
+}
+@media screen and (max-width: 761px){
+    .container{
+        display: block;
+        padding: 15px;
+    }
+    .title{
+        margin: 20px 0 5px 10px;
+    }
+    .logoImage{
+        width: 180px;
+    }
+}

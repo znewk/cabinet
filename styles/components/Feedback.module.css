@@ -1,0 +1,37 @@
+.feedback_item{
+    width: 100%;
+    height: auto;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 2px darkgrey;
+    margin-bottom: 2%;
+    padding: 2%;
+}
+
+.fullname{
+    font-size: 24px;
+    font-weight: 500;
+    margin: 2%;
+    color: #0070f3;
+}
+
+.fullname, .datetime{
+    display: inline-block;
+}
+
+.datetime{
+    margin-left: 2%;
+}
+
+.text{
+    margin-top: 1%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.hr{
+    border: 0.2px solid transparent;
+    box-shadow: 0 0 2px darkgrey;
+    height: 1px;
+}

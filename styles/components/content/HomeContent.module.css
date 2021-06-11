@@ -1,0 +1,335 @@
+@font-face {
+    font-family: "NeoSansPro Bold";
+    src: url("../../../public/fonts/NeoSansPro/NeoSansPro-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "NeoSansPro Medium";
+    src: url("../../../public/fonts/NeoSansPro/NeoSansPro-Medium.ttf") format("truetype");
+}
+@font-face {
+    font-family: "NeoSansPro Regular";
+    src: url("../../../public/fonts/NeoSansPro/NeoSansPro-Regular.ttf") format("truetype");
+}
+.main_text{
+    font-size: 32px;
+    font-family: 'GraphikLCWeb',Arial,sans-serif;
+    line-height: 1.5;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 25vh;
+    margin-bottom: 30vh;
+    color: #011627;
+}
+
+.what_is_oilan_description{
+    width: 40%;
+}
+
+.main_img{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.community_img{
+    width: 40%;
+}
+
+.container {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.main_block{
+    z-index: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    background: rgb(60,88,185);
+    background: linear-gradient(90deg, rgba(60,88,185,1) 0%, rgba(119,148,248,1) 100%);
+}
+
+.flex_block{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contentBlockTitle{
+    font-family: 'NeoSansPro Bold';
+    font-size: 38px;
+    width: 100%;
+    text-align: center;
+}
+
+.dialogue_block_left{
+    background: rgb(246,137,57);
+    background: linear-gradient(0deg, rgba(246,137,57,1) 0%, rgba(255,168,105,1) 100%);
+    width: 500px;
+    height: auto;
+    border-radius: 30px;
+    margin-top: 5%;
+    padding: 2%;
+    color: #fff;
+    font-family: 'NeoSansPro Medium';
+    font-size: 18px;
+    box-shadow: 0 8px 10px #5c5c5f;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.dialogue_block_right{
+    background: rgb(246,137,57);
+    background: linear-gradient(0deg, rgba(246,137,57,1) 0%, rgba(255,168,105,1) 100%);
+    width: 500px;
+    height: auto;
+    border-radius: 30px;
+    margin-top: 5%;
+    padding: 2%;
+    color: #fff;
+    font-family: 'NeoSansPro Medium';
+    font-size: 18px;
+    box-shadow: 0 8px 10px #5c5c5f;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.courses_block{
+    display: flex;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.courses_block > *{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+.orange_button{
+    border-radius: 48px;
+    background: rgb(246,137,57);
+    background: linear-gradient(0deg, rgba(246,137,57,1) 0%, rgba(255,168,105,1) 100%);
+    width: 250px;
+    height: 60px;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-family: "NeoSansPro Regular";
+    border: 1px solid transparent;
+    cursor: pointer;
+    box-shadow: 0px 2px 13px -5px rgba(0,0,0,0.6);
+    transition: 0.5s
+}
+
+.orange_button:hover{
+    transition: 0.5s;
+    box-shadow: 0px 2px 13px 1px rgba(0,0,0,0.6);
+    transform: scale(1.1);
+    font-size: 20px;
+}
+
+.orange_button > * {
+    color: #fff;
+}
+
+.orange_button > *:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.orange_button:focus{
+    outline: none;
+}
+
+.contentBlockContent{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.why_us_block{
+    display: flex;
+    align-items: center;
+}
+
+.contentBlock{
+    z-index: 2;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+
+.main_block_links_list{
+    list-style: none;
+    padding: 0;
+}
+
+.main_block_links_list li{
+    font-family: "NeoSansPro Regular";
+    display: inline-block;
+    margin-right: 5%;
+    color: #fff;
+}
+
+.main_blocks_links_p{
+    color: #fff;
+    cursor: pointer;
+    fontSize: 16px;
+    transition: 0.2s;
+}
+.main_blocks_links_p:hover{
+    text-shadow: 0 0 2px #000;
+    color: #95bddc;
+    transition: 0.2s;
+}
+
+.main_text_big{
+    font-family: "NeoSansPro Bold";
+    font-size: 52px;
+    color: #fff;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.main_text_small{
+    font-size: 20px;
+    font-family: "NeoSansPro Medium";
+    color: #fff;
+}
+
+.features_line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.feature_block{
+    width: 20%;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.feature_title{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.feature_text{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.arrow_bottom_block{
+    text-align: center;
+}
+
+.flex_3{
+    width: 33%;
+    display: flex;
+    align-items: center;
+}
+
+.flex_2{
+    width: 50%;
+}
+
+.ca_block{
+    background-image: url('/CA-background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 115vh;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+}
+
+@media screen and (max-width: 761px){
+    .main_block_links_block{
+        margin-top: 80px;
+    }
+    .main_img{
+        display: none;
+    }
+
+    .community_img{
+        display: none;
+    }
+
+    .what_is_oilan_description{
+        width: 100%;
+        text-align: center;
+    }
+
+    .arrow_bottom_block{
+        margin-top: 20px;
+    }
+
+    .why_us_block{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        align-items: center;
+    }
+
+    .flex_block{
+        flex-direction: column;
+    }
+
+    .flex_3{
+        width: 100%;
+    }
+
+    .flex_2{
+        width: 100%;
+    }
+
+
+    .feature_block{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .contentBlock{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .contentBlockTitle{
+        padding: 10px;
+    }
+
+    .ca_block{
+        background-image: none;
+        background-color: #5E7CDF;
+        width: auto;
+        height: auto;
+        padding-top: 1%;
+        padding-bottom: 50px;
+        padding-left: 5%;
+        padding-right: 5%;
+        display: flex;
+    }
+
+    .dialogue_block_right{
+        height: auto;
+        padding: 5%;
+    }
+
+    .dialogue_block_left{
+        height: auto;
+        padding: 7%;
+    }
+}

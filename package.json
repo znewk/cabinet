@@ -1,0 +1,30 @@
+{
+  "name": "goeducation-test",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "^4.6.0",
+    "emailjs-com": "^2.6.4",
+    "history": "^4.10.1",
+    "jquery": "^3.6.0",
+    "moment": "^2.29.1",
+    "next": "10.0.9",
+    "react": "17.0.1",
+    "react-animated-slider": "^2.0.0",
+    "react-bootstrap": "^1.5.2",
+    "react-dom": "17.0.1",
+    "react-router-dom": "^5.2.0",
+    "react-slick": "^0.28.1",
+    "react-spinners": "^0.10.6",
+    "react-yandex-maps": "^4.6.0",
+    "react-yandex-metrika": "^2.6.0",
+    "slick-carousel": "^1.8.1"
+  }
+}
